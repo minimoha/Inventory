@@ -1,0 +1,15 @@
+﻿@model int
+
+<td style="width:150px">
+    <div class="btn-group" role="group">
+        <a type="button" class="btn btn-primary" asp-route-id="@Model" asp-action="Edit">
+            <i class="fa fa-pencil-square" aria-hidden="true"></i>
+        </a>
+        <a type="button" class="btn btn-success" asp-route-id="@Model" asp-action="Details">
+            <i class="fa fa-list-ul" aria-hidden="true"></i>
+        </a>
+        <a type="button" class="btn btn-danger" asp-route-id="@Model" asp-action="Delete">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+        </a>
+    </div>
+</td>

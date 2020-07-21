@@ -1,0 +1,9 @@
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\bin\Debug\netcoreapp3.0\Inventory.Utility.deps.json
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\bin\Debug\netcoreapp3.0\Inventory.Utility.dll
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\bin\Debug\netcoreapp3.0\Inventory.Utility.pdb
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.csprojAssemblyReference.cache
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.AssemblyInfoInputs.cache
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.AssemblyInfo.cs
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.dll
+C:\Users\Muhammed\Desktop\Projects\Inventory\Inventory.Utility\obj\Debug\netcoreapp3.0\Inventory.Utility.pdb

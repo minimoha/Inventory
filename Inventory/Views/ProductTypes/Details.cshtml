@@ -1,0 +1,33 @@
+﻿@model Inventory.Models.ProductTypes
+
+@{
+    ViewData["Title"] = "Details";
+}
+<br />
+
+
+
+<h2 class="text-info">Product Details</h2>
+
+
+<div class="p-4 border rounded row">
+    @*<input hidden asp-for="Products.Id" />*@
+
+    <div class="col-8">
+        <div class="form-group row">
+            <div class="col-4">
+                <label asp-for="Name"></label>
+            </div>
+            <div class="col-8">
+                <input asp-for="Name" readonly class="form-control" />
+            </div>
+
+        </div>
+
+    <br />
+    <div class="form-group">
+        <a asp-action="Edit" class="btn btn-primary" asp-route-id="@Model.Id">Edit</a>
+        <a asp-action="Index" class="btn btn-success">Back to List</a>
+    </div>
+</div>
+</div>

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Inventory.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <br />
+
+
+<div class="row">
+    <div class="col-6">
+        <h2 class="text-info">Products</h2>
+    </div>
+    <div class="col-6 text-right">
+        <a asp-action="Create" class="btn btn-info"> &nbsp;<i class="fa fa-plus" aria-hidden="true"></i> &nbsp; New Product</a>
+    </div>
+</div>
+<br />
+<div>
+    <table class="table table-striped border">
+        <tr class="table-info">
+            <th>
+                @Html.DisplayNameFor(m => m.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Available)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductTypes)
+            </th>
+           
+            <th></th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Available)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductTypes.Name)
+                </td>
+              
+                <td>
+                    <partial name="_TableButtonPartial" model="item.Id" />
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
